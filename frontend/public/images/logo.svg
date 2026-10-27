@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" fill="none">
+  <defs>
+    <!-- Primary Violet Gradient matching #8B5CF6 -->
+    <linearGradient id="violetGradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+
+    <!-- Secondary Soft Violet Gradient for Embracing Petals -->
+    <linearGradient id="violetGradSoft" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Deep Hair / Silhouette Gradient -->
+    <linearGradient id="violetGradDeep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581C87" />
+      <stop offset="50%" stop-color="#4C1D95" />
+      <stop offset="100%" stop-color="#3B0764" />
+    </linearGradient>
+
+    <!-- Soft Face / Baby Skin Lavender Tint -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5FF" />
+      <stop offset="100%" stop-color="#F3E8FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= EMBLEM: MOTHER & BABY IN EMBRACE ================= -->
+  <g transform="translate(10, 5)">
+    <!-- Outer Embracing Petal / Crescent (Left & Bottom) -->
+    <path 
+      d="M20 70 C 8 58, 6 36, 18 20 C 26 10, 42 6, 56 12 C 44 14, 32 22, 26 34 C 20 46, 22 60, 32 70 C 26 72, 22 71, 20 70 Z" 
+      fill="url(#violetGradSoft)" 
+    />
+    
+    <!-- Outer Lower Floral Petal (Lower Left Swoosh) -->
+    <path 
+      d="M10 50 C 6 62, 14 74, 26 80 C 38 86, 54 86, 68 80 C 52 82, 36 78, 26 70 C 18 64, 14 56, 10 50 Z" 
+      fill="url(#violetGradPrimary)" 
+      opacity="0.75"
+    />
+
+    <!-- Enclosing Womb / Petal Arc (Bottom Right) -->
+    <path 
+      d="M35 75 C 50 86, 72 82, 82 68 C 90 56, 88 38, 78 26 C 84 36, 84 50, 78 62 C 70 72, 54 78, 35 75 Z" 
+      fill="url(#violetGradSoft)" 
+    />
+
+    <!-- Mother's Body / Torso / Arm Cradling Baby -->
+    <path 
+      d="M32 48 C 30 56, 32 68, 42 74 C 52 80, 68 76, 74 66 C 78 58, 76 50, 70 44 C 64 38, 56 38, 50 42 C 46 44, 42 46, 38 46 C 34 46, 32 46, 32 48 Z" 
+      fill="url(#violetGradPrimary)" 
+    />
+
+    <!-- Mother's Face and Neck (Soft profile looking down at baby) -->
+    <path 
+      d="M48 24 C 54 22, 60 25, 63 30 C 65 34, 63 38, 60 41 C 57 44, 52 45, 48 42 C 45 40, 44 36, 45 32 C 46 28, 46 25, 48 24 Z" 
+      fill="url(#skinGrad)" 
+    />
+
+    <!-- Mother's Flowing Hair (Sweeping over head, down back to arms) -->
+    <path 
+      d="M44 18 C 54 16, 66 18, 72 26 C 76 32, 74 40, 70 46 C 68 44, 66 40, 65 36 C 64 30, 60 26, 54 24 C 48 22, 42 24, 38 28 C 34 32, 32 38, 33 46 C 34 54, 38 62, 44 68 C 36 64, 30 56, 28 46 C 26 34, 32 22, 44 18 Z" 
+      fill="url(#violetGradDeep)" 
+    />
+
+    <!-- Mother's Eye (Gentle closed curved eye in peaceful loving gaze) -->
+    <path 
+      d="M54 31 C 56 32, 58 32, 60 31" 
+      stroke="#581C87" 
+      stroke-width="1.2" 
+      stroke-linecap="round" 
+    />
+
+    <!-- Baby's Head & Face (Cradled against mother's chest) -->
+    <circle cx="58" cy="48" r="8" fill="url(#skinGrad)" />
+    
+    <!-- Baby's Little Hair Cap -->
+    <path 
+      d="M52 46 C 54 42, 60 41, 64 44 C 65 45, 65 47, 63 47 C 60 44, 55 45, 52 46 Z" 
+      fill="url(#violetGradDeep)" 
+    />
+
+    <!-- Baby's Peaceful Closed Eye -->
+    <path 
+      d="M56 49 C 57 50, 59 50, 60 49" 
+      stroke="#581C87" 
+      stroke-width="1" 
+      stroke-linecap="round" 
+    />
+
+    <!-- Swaddled Blanket wrapping around baby -->
+    <path 
+      d="M52 52 C 54 58, 60 62, 66 60 C 70 58, 70 54, 66 52 C 62 50, 56 50, 52 52 Z" 
+      fill="url(#violetGradSoft)" 
+    />
+  </g>
+
+  <!-- ================= TYPOGRAPHY: MaatriMitra with Petal Leaves on "i" ================= -->
+  <g transform="translate(108, 22)">
+    <!-- "Maatri" in Violet Gradient -->
+    <text 
+      x="0" 
+      y="38" 
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+      font-size="36" 
+      font-weight="800" 
+      fill="url(#violetGradPrimary)" 
+      letter-spacing="-0.5"
+    >
+      Maatri
+    </text>
+
+    <!-- "Mitra" in Dark Indigo Charcoal -->
+    <text 
+      x="118" 
+      y="38" 
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+      font-size="36" 
+      font-weight="800" 
+      fill="#1E1B4B" 
+      letter-spacing="-0.5"
+    >
+      Mitra
+    </text>
+
+    <!-- Twin Leaf Petals on the "i" of Maatri / Mitra -->
+    <g transform="translate(93, 8)">
+      <!-- Left Petal Leaf -->
+      <path 
+        d="M6 14 C 2 10, 2 4, 6 0 C 10 4, 10 10, 6 14 Z" 
+        fill="url(#violetGradPrimary)" 
+        transform="rotate(-25 6 7)"
+      />
+      <!-- Right Petal Leaf -->
+      <path 
+        d="M8 14 C 4 10, 4 4, 8 0 C 12 4, 12 10, 8 14 Z" 
+        fill="url(#violetGradPrimary)" 
+        transform="rotate(25 8 7)"
+      />
+    </g>
+
+    <!-- Subtitle: Doctor & Admin Portal (Matching Platform) -->
+    <text 
+      x="2" 
+      y="54" 
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+      font-size="12" 
+      font-weight="600" 
+      fill="#8B5CF6" 
+      letter-spacing="0.5"
+    >
+      Doctor &amp; Admin Portal
+    </text>
+
+    <!-- Small "AI" Badge Pill -->
+    <rect x="206" y="16" width="24" height="16" rx="8" fill="#EDE9FE" stroke="#DDD6FE" stroke-width="1" />
+    <text 
+      x="212" 
+      y="28" 
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+      font-size="9" 
+      font-weight="800" 
+      fill="#7C3AED"
+    >
+      AI
+    </text>
+  </g>
+</svg>
